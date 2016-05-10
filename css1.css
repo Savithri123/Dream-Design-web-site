@@ -1,0 +1,440 @@
+@charset "utf-8";
+
+#black {
+	color: #000;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#000;
+	
+}
+
+#black p {
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+}
+.Heading {
+	font-family: Garamond;
+	color: #999;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+.dot {
+	font-size: 36px;
+
+
+}
+.col {
+	border: 7px inset #CCC;
+}
+
+	
+
+
+
+
+
+
+	
+	.hintbox {
+		display:none;
+		position:absolute;
+		font-size:12px;
+		background-color:#CCC;
+		color:#000;
+		border:1px solid #aaa;
+		padding:0;
+		left:10px;
+		top:42px;
+		width:41px;
+		box-shadow:0 2px 4px rgba(0,0,0,0.2);
+
+}
+
+	.hintbox td th{
+		float:left;
+		position:relative;
+		text-align:center;
+		width:41px;
+}
+
+	.hintbox td th:hover {
+		background-color: #f5f5f5;
+}
+
+	.hintbox td th span{
+		box-shadow:0 0 2px rgba(0,0,0,0.2) inset;
+		display:block;
+		height:15px;
+		position:absolute;
+		right:0px;
+		top:3px;
+		width:15px;
+		font-size:12px;
+}
+
+#blue {
+	color: #fff;
+	font-family: Garamond;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#1c138a;
+
+}
+.dot table tr #blue p {
+	color: #FFF;
+	font-size: 14px;
+}
+#bronze {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#fe7f01;
+}
+.dot table tr #bronze p {
+	font-size: 15px;
+	color: #FFF;
+}
+#brown {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#663300;
+}
+.dot table tr #brown p {
+	color: #FFF;
+	font-size: 16px;
+}
+#chartreuse {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#00ff00;
+}
+.dot table tr #chartreuse p {
+	color: #FFF;
+	font-size: 14px;
+}
+#cream {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffffcc;
+}
+.dot table tr #cream p {
+	color: #333;
+	font-size: 14px;
+}
+#eco {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffffff;
+}
+.dot table tr #eco p {
+	font-size: 18px;
+}
+#ft {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffffff;
+}
+.dot table tr #ft p {
+	font-size: 18px;
+}
+#gold {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#cc9900;
+}
+.dot table tr #gold p {
+	color: #300;
+	font-size: 14px;
+}
+#gray {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#d3d3d3;
+}
+.dot table tr #gray p {
+	color: #333;
+	font-size: 14px;
+}
+#green {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#00cc00;
+}
+.dot table tr #green p {
+	color: #030;
+	font-size: 15px;
+}
+#lmn {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#fff819;
+}
+.dot table tr #lmn p {
+	color: #630;
+	font-size: 14px;
+}
+#pnk {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffb6c1;
+}
+.dot table tr #pnk p {
+	color: #333;
+	font-size: 16px;
+}
+#lm {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#99ff00;
+}
+.dot table tr #lm p {
+	color: #030;
+	font-size: 14px;
+}
+#mg {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ff00ff;
+
+}
+.dot table tr #mg p {
+	color: #303;
+	font-size: 14px;
+}
+#mrn {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#800000;
+
+}
+.dot table tr #mrn p {
+	color: #CCC;
+	font-size: 14px;
+}
+
+#mul {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#fbb2ff;
+
+}
+#nv {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#000080;
+}
+.dot table tr #nv p {
+	color: #CCC;
+	font-size: 16px;
+	font-family: Garamond;
+}
+#olv {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#808000;
+}
+.dot table tr #olv p {
+	color: #030;
+	font-size: 13px;
+}
+#opl {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffffff;
+}
+.dot table tr #opl p {
+	font-size: 18px;
+}
+#or {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ff6600;
+}
+.dot table tr #or p {
+	color: #FF9;
+	font-size: 14px;
+}
+#hp {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ff1d8c;
+}
+.dot table tr #hp p {
+	color: #F9F;
+	font-size: 16px;
+}
+#ppl {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#800080;
+}
+.dot table tr #ppl p {
+	color: #C9F;
+	font-size: 14px;
+}
+#rd {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ff0000;
+}
+.dot table tr #rd p {
+	color: #CCC;
+	font-size: 16px;
+}
+#ss {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffffff;
+}
+.dot table tr #ss p {
+	font-size: 18px;
+}
+#trd {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffffff;
+}
+.dot table tr #trd p {
+	font-size: 18px;
+}
+#tq {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#34dddd;
+}
+.dot table tr #tq p {
+	font-size: 14px;
+}
+#wt {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffffff;
+}
+.dot table tr #wt p {
+	color: #666;
+	font-size: 14px;
+}
+#ylw {
+	color: #FFF;
+	font-family: Garamond;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	border: 2px solid white;
+	background:#ffff00;
+}
+.dot table tr #ylw p {
+	color: #999;
+	font-size: 16px;
+}

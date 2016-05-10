@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+
+#container{width:1335px;
+			height:1120px;
+			
+}
+		#head{
+		width:1335px;
+		height:690px;
+		clear:both;
+		background-color:transparent;
+	background-image:  url(../imgs/j10.jpg); width:1335px; height:690px; background-repeat:no-repeat;
+		-webkit-animation: myfirst 40s; 
+		 animation: myfirst 40s ;
+   }
+		@-webkit-keyframes myfirst {
+   
+    5%  {background-image: url(imgs/j9.jpg);width:1335px; height:690px; background-repeat:repeat;}
+   25%  {background-image: url(imgs/j5.jpg); width:1335px; height:690px; background-repeat:no-repeat;}
+ 45% {background-image:url(imgs/j6.jpg);width:1335px; height:690px ; background-repeat:no-repeat;}
+  65% {background-image: url(imgs/j7.jpg);width:1335px; height:690px; background-repeat:no-repeat;}
+  85% {background-image: url(imgs/j8.jpg);width:1335px; height:690px; background-repeat:no-repeat;}
+  100% {background-image: url(imgs/j3.jpg);width:1335px; height:690px; background-repeat:no-repeat;}}
+    
+#link{width:1325px;
+		height:350px;
+		background-image: url(../imgs/l.jpg);
+		background-color: #CCF;
+		padding:5px 5px 5px 5px;
+		
+}
+#home{ width:350px;
+		height:350px;
+		float:left;
+		 }
+#design{width:805px;
+		height:350px;
+		float:right;
+		padding:0px 80px 0px 80px;
+		
+		}
+
+#footer{width:1325px;
+		height:50px;
+		padding:5px 5px 5px 5px;
+		background-color: #ccc;
+		}
